@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from faker import Faker
-from models import Student, Group, Teacher, Subject, Grade
+from db_scripts.models import Student, Group, Teacher, Subject, Grade
 import random
 from datetime import date, timedelta
 
